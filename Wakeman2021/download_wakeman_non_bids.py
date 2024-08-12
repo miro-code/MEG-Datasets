@@ -3,6 +3,8 @@ import argparse
 import urllib.request
 import zipfile
 
+#  This file should download wakeman "in a non-BIDS format (which may be easier to download by subject rather than by modality"
+
 # Parse arguments
 parser = argparse.ArgumentParser(description='Download and unpack dataset')
 parser.add_argument('--target_path', type=str, default=os.path.abspath(os.path.join(

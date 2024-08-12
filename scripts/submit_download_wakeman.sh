@@ -7,4 +7,4 @@
 #SBATCH --output=results/slurm_out/%j.out
 
 echo "Downloading Wakeman 2021 data"
-python Wakeman2021/download_wakeman.py
+sh Wakeman2021/download_wakeman.sh
