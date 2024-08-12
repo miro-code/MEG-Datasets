@@ -1,6 +1,6 @@
 #! /bin/bash
 #SBATCH --nodes=1
-#SBATCH --job-name=download_data
+#SBATCH --job-name=download_wakeman
 #SBATCH --time=48:00:00
 #SBATCH --partition=medium
 #SBATCH --account=engs-pnpl

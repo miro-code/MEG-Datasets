@@ -1,8 +1,8 @@
 #! /bin/bash
 #SBATCH --nodes=1
-#SBATCH --job-name=download_data
-#SBATCH --time=00:10:00
-#SBATCH --partition=devel
+#SBATCH --job-name=download_lemon
+#SBATCH --time=48:00:00
+#SBATCH --partition=medium
 #SBATCH --account=engs-pnpl
 #SBATCH --output=results/slurm_out/%j.out
 

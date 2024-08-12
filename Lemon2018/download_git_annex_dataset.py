@@ -55,11 +55,11 @@ def clone_and_setup_annex(repo_url, clone_to):
         run_command(['git', 'annex', 'get', '.'])
 
 
-# make /arc_data working directory
-os.chdir(os.path.join("/", "arc_data", "MEG-Datasets", "LemonData"))
+os.makedirs(os.path.join("/", "arc_data", "Lemon2018"), exist_ok=True)
+os.chdir(os.path.join("/", "arc_data", "Lemon2018"))
 
 # print list of files in /arc_data/MEG-Datasets
-print("Files in /arc_data/MEG-Datasets:")
+print("Files in /arc_data:")
 print(os.listdir())
 
 
